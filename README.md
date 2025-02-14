@@ -8,3 +8,7 @@ Yo use un Switch al tener que utilizar opciones numericas y asi asignarle un eve
 
 Script 3:
 Use un if else, asi no tener que depender de opciones numericas.
+
+Link al pdf para la parte de Uso de Variables, Operaciones Matematicas y Operaciones Logicas:
+
+=== https://drive.google.com/file/d/19sfKCea7G2U59Nov29RA4rcfeyrt87F9/view?usp=sharing ===
