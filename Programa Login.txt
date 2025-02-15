@@ -1,0 +1,33 @@
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        string usuario = "Jorge";
+        string contraseña = "contraseña";
+
+        Console.WriteLine("Ingrese su usuario:");
+        string usuarioIngresado = Console.ReadLine();
+
+        Console.WriteLine("Ingrese su contraseña:");
+        string contraseñaIngresada = Console.ReadLine();
+
+        // Lógica de códigos
+        if (usuarioIngresado != usuario && contraseñaIngresada != contraseña)
+        {
+            Console.WriteLine("Datos incorrectos, acceso denegado");
+        }
+        else if (usuarioIngresado == usuario && contraseñaIngresada != contraseña)
+        {
+            Console.WriteLine("Contraseña incorrecta");
+        }
+        else if (usuarioIngresado == usuario && contraseñaIngresada == contraseña)
+        {
+            Console.WriteLine("Login iniciado correctamente");
+        }
+        Console.WriteLine("Presione Enter para salir...");
+        Console.ReadLine();
+    }
+}
+

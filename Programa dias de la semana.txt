@@ -1,0 +1,42 @@
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.WriteLine("Escribe el numero del dia de la semana que quieres saber");
+        int numero = int.Parse(Console.ReadLine());
+
+        switch (numero)
+        {
+            case 1:
+                Console.WriteLine("El dia es lunes");
+                break;
+            case 2:
+                Console.WriteLine("El dia es martes");
+                break;
+            case 3:
+                Console.WriteLine("El dia es miercoles");
+                break;
+            case 4:
+                Console.WriteLine("El dia es jueves");
+                break;
+            case 5:
+                Console.WriteLine("El dia es viernes");
+                break;
+            case 6:
+                Console.WriteLine("El dia es sabado");
+                break;
+            case 7:
+                Console.WriteLine("El dia es domingo");
+                break;
+            default:
+                Console.WriteLine("Esa opcion no existe");
+                break;
+        }
+
+        // Esperar a que el usuario presione una tecla antes de cerrar
+        Console.WriteLine("Presiona cualquier tecla para salir...");
+        Console.ReadKey();
+    }
+}
